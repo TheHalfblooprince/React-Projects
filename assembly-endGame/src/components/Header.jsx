@@ -110,7 +110,11 @@ function Header() {
 
   function renderGameStatus() {
     if (!isGameOver && isLastGussedLetterisCorrect) {
-      return <p>{getFarewellText(languages[wrongGuessCount - 1].name)}</p>;
+      return (
+        <p className="m-4 p-5 bg-purple-500 border-3 border-purple-300 rounded-lg">
+          {getFarewellText(languages[wrongGuessCount - 1].name)}
+        </p>
+      );
     }
 
     if (isGameWon) {
