@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s06g9sn",
+  "description": "https://scrimba.com/learn-typescript-c03c/~0u",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
