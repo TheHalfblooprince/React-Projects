@@ -12,7 +12,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCFR4Er_nAmHChJxyb_ZkWvH_4RHk0MXxU",
+  apiKey: "",
   authDomain: "postgram-45c3d.firebaseapp.com",
   projectId: "postgram-45c3d",
   storageBucket: "postgram-45c3d.firebasestorage.app",
